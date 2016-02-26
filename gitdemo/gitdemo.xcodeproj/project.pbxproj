@@ -15,6 +15,7 @@
 		BC24B59C1C80226C0065B5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC24B59A1C80226C0065B5DB /* LaunchScreen.storyboard */; };
 		BC24B5A71C80226D0065B5DB /* gitdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24B5A61C80226D0065B5DB /* gitdemoTests.m */; };
 		BC24B5B21C80226D0065B5DB /* gitdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24B5B11C80226D0065B5DB /* gitdemoUITests.m */; };
+		BC24B5C11C8025CB0065B5DB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24B5C01C8025CA0065B5DB /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BC24B5AD1C80226D0065B5DB /* gitdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC24B5B11C80226D0065B5DB /* gitdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitdemoUITests.m; sourceTree = "<group>"; };
 		BC24B5B31C80226D0065B5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC24B5BF1C8025CA0065B5DB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BC24B5C01C8025CA0065B5DB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				BC24B59A1C80226C0065B5DB /* LaunchScreen.storyboard */,
 				BC24B59D1C80226C0065B5DB /* Info.plist */,
 				BC24B58C1C80226C0065B5DB /* Supporting Files */,
+				BC24B5BF1C8025CA0065B5DB /* Person.h */,
+				BC24B5C01C8025CA0065B5DB /* Person.m */,
 			);
 			path = gitdemo;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				BC24B5941C80226C0065B5DB /* ViewController.m in Sources */,
 				BC24B5911C80226C0065B5DB /* AppDelegate.m in Sources */,
+				BC24B5C11C8025CB0065B5DB /* Person.m in Sources */,
 				BC24B58E1C80226C0065B5DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				BC24B5B81C80226D0065B5DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC24B5B91C80226D0065B5DB /* Build configuration list for PBXNativeTarget "gitdemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				BC24B5BB1C80226D0065B5DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC24B5BC1C80226D0065B5DB /* Build configuration list for PBXNativeTarget "gitdemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				BC24B5BE1C80226D0065B5DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
